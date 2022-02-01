@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>歷史的里程碑</title>
+    <link href="/2022/02/01/footprints-of-history/"/>
+    <url>/2022/02/01/footprints-of-history/</url>
+    
+    <content type="html"><![CDATA[<p>今天，是大年初一，不知不覺，寒假過了一半，而我的高中生活呢?僅僅剩下一半又一半的寒假時間。這高中三年實在是太短了，短到會讓人察覺不出時間的流逝；高中生活太過於緊湊，緊湊到讓人發現不了生活的情趣。而這一切，直到我幾乎是渾渾噩噩度過一整個學期才發覺。這一個學期，除了考試以外，就是數之不盡的比賽、活動。到2021年底要寫年度漢字的時候，我赫然發現，如果沒有刻意去紀錄，我真的會錯過相當多有趣、美好的回憶。<br>    為此，我決定創下這一個網站，今後不論是心情、資訊競賽的解題、校內考試的訂正等等，都會將之更新到網站上面。我希望這個網站能夠記載著我歷史上的里程碑!<br>    我曾經在全校面前講過，希望十年後，當我再回頭望時，我看不到任何一絲的遺憾。而我現在想說的是，希望十年後，當我回頭望向我的高中生活時，我還能夠看見東西，而不是 記憶中的一片空白。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2022/02/01/hello-world/"/>
+    <url>/2022/02/01/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo server<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo generate<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></div></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
