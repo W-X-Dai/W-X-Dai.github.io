@@ -4,6 +4,51 @@
   
   
   <entry>
+    <title>解未知數的題目</title>
+    <link href="/2022/02/03/unknown-number/"/>
+    <url>/2022/02/03/unknown-number/</url>
+    
+    <content type="html"><![CDATA[<h1 id="解未知數的題目">解未知數的題目</h1><p>蒐羅了一些關於未知數的題目，不斷更新中</p><h2 id="類題1">類題1</h2><h3 id="題目敘述">題目敘述:</h3><p><spanclass="math inline">\(若m,n\in\mathbb{N},\sqrt{x}\notin\mathbb{Q}且\sqrt{10-2\sqrt{x}}可簡化成\)</span>-<spanclass="math inline">\(，則滿足此條件之\)</span>x$有幾個</p><h3 id="想法">想法:</h3><p>將<span class="math inline">\(\sqrt{m}-\sqrt{n}\)</span>拆解</p><h3 id="題解">題解:</h3><p><spanclass="math inline">\(\begin{split}\sqrt{m}-\sqrt{n}=\sqrt{(\sqrt{m}-\sqrt{n})^2}=&amp;\sqrt{(m+n)-2\sqrt{mn}}\\=&amp;\sqrt{10-2\sqrt{x}}\end{split}\)</span></p><p>對應係數可得<span class="math inline">\(m+n=10,x=mn\)</span></p><p>又<span class="math inline">\(m,n\in\mathbb{Q}\)</span></p><table><thead><tr class="header"><th>m</th><th>m</th><th>mn</th><th></th></tr></thead><tbody><tr class="odd"><td>1</td><td>9</td><td>9</td><td>X</td></tr><tr class="even"><td>2</td><td>8</td><td>16</td><td>X</td></tr><tr class="odd"><td>3</td><td>7</td><td>21</td><td>V</td></tr><tr class="even"><td>4</td><td>6</td><td>24</td><td>V</td></tr><tr class="odd"><td>5</td><td>5</td><td>25</td><td>X</td></tr><tr class="even"><td>6</td><td>4</td><td>24</td><td>X</td></tr><tr class="odd"><td>7</td><td>3</td><td>21</td><td>X</td></tr><tr class="even"><td>8</td><td>2</td><td>16</td><td>X</td></tr><tr class="odd"><td>9</td><td>1</td><td>9</td><td>X</td></tr></tbody></table><p><span class="math inline">\(Ans.2\)</span></p><h2 id="類題2.">類題2.</h2><h3 id="題目敘述-1">題目敘述:</h3><p>已知<span class="math inline">\(a,b\in\mathbb{R},且|ax+1|\leb\;\)</span>的解為<span class="math inline">\(-1\le x\le3\;\)</span>，求<span class="math inline">\(a+b\)</span></p><h3 id="想法-1">想法:</h3><p>直接分解<span class="math inline">\(|ax+1|\le b\)</span></p><h3 id="題解-1">題解:</h3><p><span class="math inline">\(|ax+b|\le b\;,\;-b\le\; ax+1\leb\)</span> <span class="math inline">\(\cfrac{-b-1}{a}\;\le x\le\;\cfrac{b-1}{a}\)</span> 解得<spanclass="math inline">\(a=-1,b=2\)</span> <spanclass="math inline">\(Ans.a+b=-1+2=1\)</span></p><h1 id="原文">原文</h1><blockquote><p><a href="https://hackmd.io/@myheartway/BJ0oeLGCY">點此前往</a></p></blockquote>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>我的數學心路歷程</title>
+    <link href="/2022/02/03/math/"/>
+    <url>/2022/02/03/math/</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言">前言</h1><p>數學，是個美妙的科目，在這個科目中，可以盡情享受推導、演算的樂趣。以下為我曾經答錯過，或者是我認為很有趣的題目。</p><h2 id="數與式">數與式</h2><ul><li><ahref="https://w-x-dai.github.io/2022/02/03/unknown-number/">解未知數的題目</a></li><li><a href="/qrkwL-gVTQK9X5R5ylPTbA">多項式</a></li></ul><h2 id="三角比">三角比</h2><ul><li><a href="/hmgPef_YQ9uyB8tudTIiXA">三角比結合乘法公式</a></li></ul><h2 id="指數與對數">指數與對數</h2><ul><li><a href="/uXWD5bWNRxSJ9hIPYZ-_PA">對數律</a></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>單字複習工具</title>
+    <link href="/2022/02/03/vocsexam/"/>
+    <url>/2022/02/03/vocsexam/</url>
+    
+    <content type="html"><![CDATA[<h1 id="緣起">緣起:</h1><p>英文老師每一次段考都會加考一大堆(少則400多則1000🤢)，再複習的時候看單字本很容易只是記下位置而不是單字，因此我花了一次段考的時間完成了這個英文單字複習工具，開放載點供大家參考，陸續更新中。</p><h1 id="詳細內容">詳細內容:</h1><p><a href="https://github.com/W-X-Dai/vocs/tree/main">文件網址</a></p><p>點入該網址後會有下載的教學。由於本專案製作時間是在我學習程式語言相當早期的時候，因此有些語法用得不是很恰當，亦有尚未完成的內容，請多多包涵。</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何在hexo網站中加入數學公式</title>
     <link href="/2022/02/02/how-to-add-math/"/>
     <url>/2022/02/02/how-to-add-math/</url>
@@ -20,11 +65,11 @@
     
     <tags>
       
-      <tag>心得</tag>
-      
       <tag>教學</tag>
       
       <tag>筆記</tag>
+      
+      <tag>心得</tag>
       
       <tag>Hexo</tag>
       
