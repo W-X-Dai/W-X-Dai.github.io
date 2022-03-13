@@ -8,7 +8,7 @@
     <link href="/2022/02/26/partialdifferential/"/>
     <url>/2022/02/26/partialdifferential/</url>
     
-    <content type="html"><![CDATA[<h1 id="前言">前言:</h1><p>這是一篇關於偏微分(partialdifferential)的學習筆記。說實話，我對於偏微分的理解還處於毛皮的階段，主要是為了科展的一些內容，才提前接觸這個領域。也花了不少時間思考，因此將它紀錄下來。</p><!--mord--><h1 id="關於微分">關於微分:</h1><h2 id="概念">概念:</h2><p>簡單講，微分就是取兩個極為相近，相差無限小的點。然後過那兩個點做一條直線。這就是一次微分的概念。在二微平面上進行微分會得到一條與二微平面上圖形相切的直線(關於斜率的部分等下會講到)，三維空間則是會得到一個與圖形相切的平面。</p><h2 id="實踐">實踐:</h2><p>林林總總一堆概念，那麼，微分到底要怎麼實做呢?由於我功力尚淺，因此只示範平面中二次函數的微分。</p><p>假設有一個二次方程式<span class="math inline">\(f(x)=ax^2+bx+c,m=\)</span>斜率，則此方程式一次微分後會得到:<spanclass="math display">\[2ax+b=m\]</span></p><h2 id="證明">證明:</h2><p>首先，假設有一個二次函數<spanclass="math inline">\(f(x)=ax^2+bx+c=0\)</span>，先取一個點<spanclass="math inline">\(p(x,f(x))\)</span>，再取另一個點<spanclass="math inline">\(\lim\limits_{h\to0}q((x+h),f(x+h))\)</span>。此時，過這兩點直線方程式的斜率為<spanclass="math display">\[\lim\limits_{h\to0}\cfrac{f(x+h)-f(x)}{(x+h)-h}\]</span>進行運算:<spanclass="math display">\[\begin{split}&amp;\lim\limits_{h\to0}\cfrac{(a(x+h)^2+b(x+h)+c)-(ax^2+bx+c)}{h}\\=&amp;\lim\limits_{h\to0}\cfrac{a((x+h)^2-x^2)+b((x+h)-x)+(c-c)}{h}\\=&amp;\lim\limits_{h\to0}\cfrac{a((x+h)^2-x^2)+bh}{h}\\=&amp;\lim\limits_{h\to0}\cfrac{a((x+h)+x)((x+h)-h)}{h}+b\\=&amp;\lim\limits_{h\to0}\cfrac{a(2x+h)h}{h}+b=\lim\limits_{h\to0}a(2x+h)+b=2ax+b\end{split}\]</span></p><p>其中，最後一步因為<spanclass="math inline">\(h\)</span>無限逼近於0，因此可以直些忽略。在前面的步驟之所以不能這樣操作是因為在分母也有<spanclass="math inline">\(h\)</span>，必須要先將分母的消除才可以。</p><h1 id="關於偏微分">關於偏微分</h1><h2 id="概念-1">概念:</h2><p>可以視為</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言">前言:</h1><p>這是一篇關於偏微分(partialdifferential)的學習筆記。說實話，我對於偏微分的理解還處於毛皮的階段，主要是為了科展的一些內容，才提前接觸這個領域。也花了不少時間思考，因此將它紀錄下來。</p><!--mord--><h1 id="關於微分">關於微分:</h1><h2 id="概念">概念:</h2><p>簡單講，微分就是取兩個極為相近，相差無限小的點。然後過那兩個點做一條直線。這就是一次微分的概念。在二微平面上進行微分會得到一條與二微平面上圖形相切的直線(關於斜率的部分等下會講到)，三維空間則是會得到一個與圖形相切的平面。</p><h2 id="實踐">實踐:</h2><p>林林總總一堆概念，那麼，微分到底要怎麼實做呢?由於我功力尚淺，因此只示範平面中二次函數的微分。</p><p>假設有一個二次方程式<span class="math inline">\(f(x)=ax^2+bx+c,m=\)</span>斜率，則此方程式一次微分後會得到:<spanclass="math display">\[2ax+b=m\]</span></p><h2 id="證明">證明:</h2><p>首先，假設有一個二次函數<spanclass="math inline">\(f(x)=ax^2+bx+c=0\)</span>，先取一個點<spanclass="math inline">\(p(x,f(x))\)</span>，再取另一個點<spanclass="math inline">\(\lim\limits_{h\to0}q((x+h),f(x+h))\)</span>。此時，過這兩點直線方程式的斜率為<spanclass="math display">\[\lim\limits_{h\to0}\cfrac{f(x+h)-f(x)}{(x+h)-h}\]</span>進行運算:<spanclass="math display">\[\begin{split}&amp;\lim\limits_{h\to0}\cfrac{(a(x+h)^2+b(x+h)+c)-(ax^2+bx+c)}{h}\\=&amp;\lim\limits_{h\to0}\cfrac{a((x+h)^2-x^2)+b((x+h)-x)+(c-c)}{h}\\=&amp;\lim\limits_{h\to0}\cfrac{a((x+h)^2-x^2)+bh}{h}\\=&amp;\lim\limits_{h\to0}\cfrac{a((x+h)+x)((x+h)-h)}{h}+b\\=&amp;\lim\limits_{h\to0}\cfrac{a(2x+h)h}{h}+b=\lim\limits_{h\to0}a(2x+h)+b=2ax+b\end{split}\]</span></p><p>其中，最後一步因為<spanclass="math inline">\(h\)</span>無限逼近於0，因此可以直些忽略。在前面的步驟之所以不能這樣操作是因為在分母也有<spanclass="math inline">\(h\)</span>，必須要先將分母的消除才可以。</p><h1 id="關於偏微分">關於偏微分</h1><h2 id="概念-1">概念:</h2><p>可以視為<strong>微分兩次</strong>的概念。我目前學習的偏微分旨在於查找一三維空間中圖型的頂點。我們知到，一頂點必與一個法向量為<spanclass="math inline">\((0,0,1)\)</span>的平面相切。此時，它還有另一個特性，若是我們將$$</p>]]></content>
     
     
     
@@ -33,11 +33,11 @@
     
     <tags>
       
-      <tag>筆記</tag>
-      
       <tag>math</tag>
       
       <tag>數據分析</tag>
+      
+      <tag>筆記</tag>
       
     </tags>
     
@@ -172,11 +172,11 @@
     
     <tags>
       
-      <tag>教學</tag>
+      <tag>心得</tag>
       
       <tag>筆記</tag>
       
-      <tag>心得</tag>
+      <tag>教學</tag>
       
       <tag>Hexo</tag>
       
@@ -250,17 +250,6 @@
   
   
   <entry>
-    <title>tags</title>
-    <link href="/"/>
-    <url>/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-  </entry>
-  
-  
-  
-  <entry>
     <title>about</title>
     <link href="/"/>
     <url>/</url>
@@ -273,6 +262,17 @@
   
   <entry>
     <title>categories</title>
+    <link href="/"/>
+    <url>/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>tags</title>
     <link href="/"/>
     <url>/</url>
     
