@@ -16,24 +16,18 @@
   <meta name="author" content="W_X_Dai">
   <meta name="keywords" content="">
   
-    <meta name="description" content="緣起: 最近心血來潮，利用hexo結合github架設了一個網站，想用以紀錄我學習的歷程。然而第一天就遇到了一個問題:我要如何新增數學公式?數學是我學習中佔極大比例的學科，若是無法新增數學公式，網站的效益便會降低許多。在實驗了無數次，重新架站十幾次(真的)，爬了幾十篇文章後，終於能夠如願以償在網站中加入數學公式。以防忘記，先寫一篇文章記錄下來。">
-<meta property="og:type" content="article">
-<meta property="og:title" content="如何在hexo網站中加入數學公式">
-<meta property="og:url" content="http://w-x-dai.github.io/2022/02/02/how-to-add-math/index.html">
+    <meta property="og:type" content="article">
+<meta property="og:title" content="TOI2022初選心得">
+<meta property="og:url" content="http://w-x-dai.github.io/2022/03/13/test/index.html">
 <meta property="og:site_name" content="我的心路歷程">
-<meta property="og:description" content="緣起: 最近心血來潮，利用hexo結合github架設了一個網站，想用以紀錄我學習的歷程。然而第一天就遇到了一個問題:我要如何新增數學公式?數學是我學習中佔極大比例的學科，若是無法新增數學公式，網站的效益便會降低許多。在實驗了無數次，重新架站十幾次(真的)，爬了幾十篇文章後，終於能夠如願以償在網站中加入數學公式。以防忘記，先寫一篇文章記錄下來。">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-02-02T15:07:12.000Z">
-<meta property="article:modified_time" content="2022-02-04T16:25:48.603Z">
+<meta property="article:published_time" content="2022-03-13T15:37:28.000Z">
+<meta property="article:modified_time" content="2022-05-14T15:45:22.795Z">
 <meta property="article:author" content="W_X_Dai">
-<meta property="article:tag" content="教學">
-<meta property="article:tag" content="筆記">
-<meta property="article:tag" content="心得">
-<meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>如何在hexo網站中加入數學公式 - 我的心路歷程</title>
+  <title>TOI2022初選心得 - 我的心路歷程</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -173,7 +167,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="如何在hexo網站中加入數學公式">
+            <span class="h2" id="subtitle" title="TOI2022初選心得">
               
             </span>
 
@@ -188,8 +182,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-02-02 23:07" pubdate>
-        2022年2月2日 晚上
+      <time datetime="2022-03-13 23:37" pubdate>
+        2022年3月13日 晚上
       </time>
     </span>
   
@@ -199,7 +193,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.6k 字
+      0 字
     </span>
   
 
@@ -208,7 +202,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      14 分鐘
+      1 分鐘
     </span>
   
 
@@ -245,85 +239,43 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">如何在hexo網站中加入數學公式</h1>
+            <h1 style="display: none">TOI2022初選心得</h1>
             
               <p class="note note-info">
                 
-                  本文最後更新於：：3 個月前
+                  本文最後更新於：：幾秒前
                 
               </p>
             
             <div class="markdown-body">
-              <h1 id="緣起">緣起:</h1>
-<p>最近心血來潮，利用hexo結合github架設了一個網站，想用以紀錄我學習的歷程。然而第一天就遇到了一個問題:我要如何新增數學公式?數學是我學習中佔極大比例的學科，若是無法新增數學公式，網站的效益便會降低許多。在實驗了無數次，重新架站十幾次(真的)，爬了幾十篇文章後，終於能夠如願以償在網站中加入數學公式。以防忘記，先寫一篇文章記錄下來。
-<span id="more"></span></p>
-<h1 id="前言">前言</h1>
-<p>首先，必須先了解數學公式的來源。因為本人是使用<a
-target="_blank" rel="noopener" href="https://hackmd.io/">hackmd</a>起家，因此我所熟悉的數學公式寫法為<a
-target="_blank" rel="noopener" href="https://www.latex-project.org/">LaTeX</a>語法。而hexo所支援的語法有<a
-target="_blank" rel="noopener" href="https://www.mathjax.org/">MathJax</a>、<a
-target="_blank" rel="noopener" href="https://katex.org/">KaTeX</a>以及比較新的<a
-target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-math">hexo-math</a>(需要hexo
-5.0以上)。KaTeX在安裝上雖然比較簡單，但是有部分的LaTeX公式不支援，而hexo-math是比較新的東西，他的語法我不太習慣，而且說明文件大多英文，在實作上不停碰壁，無法完成。因此我選擇了其中安裝上比較麻煩的MathJax。</p>
-<h1 id="安裝準備">安裝準備</h1>
-<p>MathJax在開始使用前我們需要先做三件事情，這三件事情都可以在terminal中完成，由於卸載原有的渲染器以及安裝新的渲染器可以在同一個路徑的cmd完成，因此放在一起講。以下三者的順序其實沒有關係，但是為了方便，我稍稍調換了一下操作的順序。
-- 卸載原有的渲染器 - 安裝新的渲染器 - 安裝新的選染器的驅動程式</p>
-<h2 id="安裝新的渲染器的驅動程式">安裝新的渲染器的驅動程式</h2>
-<p>首先在桌面左下角的搜尋中輸入"cmd"，然後右鍵點選"以系統管理員身分執行"，或是在右邊選擇"以系統管理員身分執行"
-<iframe src="https://drive.google.com/file/d/1T638przJX95XE4CoGGryHVRCqL06SOA7/preview" width="640" height="480" allow="autoplay"></iframe></p>
-<p>接著輸入以下指令: <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">choco</span> <span class="string">install</span> <span class="string">pandoc</span></span><br></pre></td></tr></table></figure>
-按下Enter，系統就會自動幫你安裝pandoc了。</p>
-<h2 id="安裝新的渲染器並解卸載舊的">安裝新的渲染器並解卸載舊的</h2>
-<p>接著將終端機導向你部落格的根目錄，比如說我的是在d槽，並且名稱叫做"myblog"
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">d:</span></span><br><span class="line"><span class="string">cd</span> <span class="string">myblog</span></span><br></pre></td></tr></table></figure> 然後輸入以下指令: <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">uninstall</span> <span class="string">hexo-renderer-marked</span> <span class="string">--save</span></span><br><span class="line"><span class="string">npm</span> <span class="string">install</span> <span class="string">hexo-renderer-pandoc</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure>
-上面兩行指令中的第一行是卸載另一個版本的渲染器，以免與新的發生碰撞，下面的是安裝新的渲染器。這裡要注意的是，假使你有安裝過hexo-math，請再加上這一行:
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">npm</span> <span class="string">uninstall</span> <span class="string">hexo-math</span> <span class="string">--save</span></span><br></pre></td></tr></table></figure> 將hexo-math的渲染器移除。</p>
-<h2 id="修改網站設定檔">修改網站設定檔</h2>
-<p>首先進入根目錄中的_config.yml檔案中，找到markdown，將其修改成這樣。如果原本沒有markdown，就在最底部加上以下程式碼:
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">markdown:</span></span><br><span class="line">  <span class="attr">plugins:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-footnote</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-sup</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-sub</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-abbr</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">markdown-it-emoji</span></span><br><span class="line">    <span class="bullet">-</span> <span class="string">hexo-math</span></span><br></pre></td></tr></table></figure>
-<del>其實我也不知道沒有加會怎樣，也懶得嘗試。反正加了沒毛病，不加白不加</del>😳</p>
-<p>接下來修改<strong>主題資料夾</strong>中的_config.yml，注意不是根目錄裡面的那個。打開後找到關於math的內容，將其修改。不同主題的可能不一樣，不過一定要將enable設定成true，engine設定成mathjax，這樣才可以。
-比如我的主題是fluid:
-<iframe src="https://drive.google.com/file/d/1S_Is530qFjqnl8uG36nOW_nVn-hqFu6C/preview" width="640" height="480" allow="autoplay"></iframe>
-其中將specific設定成true，這樣渲染器啟動的時機就只有在文章設定要開啟的時候啟動，不會造成資源浪費的問題。</p>
-<h2 id="設定文章">設定文章</h2>
-<p>最後，來針對文章部分進行設定。<strong>我的主題是fluid，使用的是MathJax</strong>，<u><strong>不同主題、工具的可能會有所不同</strong></u>
-從根目錄的source資料夾中開啟_posts資料夾，找到你想要加入數學的那一篇文章，在頂部(三條槓以上的地方)加入以下指令:
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">math:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure> 要注意冒號後面要有一個空白，不然會噴警告。
-然後重新啟動網站，就會發現已經成功渲染出數學公式了😁</p>
-<h1 id="參考資料">參考資料</h1>
-<ul>
-<li><a
-target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/guide/">官方文件(簡體中文)</a></li>
-<li><a
-target="_blank" rel="noopener" href="https://pxxyyz.com/posts/hexo-problem/">Hexo問題集合</a></li>
-</ul>
+              <HTML>
+<?php echo "Please Enter yout Score"; ?>
+<form name="form1" method="post" action="out.php">
+<p>
+<input type= "text" name="x">
+</p>
+<p>
+<input type= "submit" name="formbutton1">
+</p>
+</form>
+<form name="f2" method="post" action="sure1.php">
+<input type="submit" name="b3" value="大江東去，浪淘盡、千古風流人物。
+故壘西邊，人道是、三國周郎赤壁。
+亂石穿空，驚濤拍岸，捲起千堆雪。
+江山如畫，一時多少豪傑。
+
+遙想公瑾當年，小喬初嫁了，雄姿英發。
+羽扇綸巾，談笑處、檣櫓灰飛煙滅。
+故國神遊，多情應笑我，早生華髮。
+人間如夢，一尊還酹江月。">
+</form>
+</HTML>
 
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
                 
-                  <div class="post-meta mr-3">
-                    <i class="iconfont icon-category"></i>
-                    
-                      <a class="hover-with-bg" href="/categories/Hexo/">Hexo</a>
-                    
-                  </div>
-                
-                
-                  <div class="post-meta">
-                    <i class="iconfont icon-tags"></i>
-                    
-                      <a class="hover-with-bg" href="/tags/%E6%95%99%E5%AD%B8/">教學</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E7%AD%86%E8%A8%98/">筆記</a>
-                    
-                      <a class="hover-with-bg" href="/tags/%E5%BF%83%E5%BE%97/">心得</a>
-                    
-                      <a class="hover-with-bg" href="/tags/Hexo/">Hexo</a>
-                    
-                  </div>
                 
               </div>
               
@@ -338,9 +290,9 @@ target="_blank" rel="noopener" href="https://pxxyyz.com/posts/hexo-problem/">Hex
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/02/03/vocsexam/">
+                      <a href="/2022/04/12/learnandneed/">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">單字複習工具</span>
+                        <span class="hidden-mobile">學習與需要</span>
                         <span class="visible-mobile">上一篇</span>
                       </a>
                     
@@ -348,8 +300,8 @@ target="_blank" rel="noopener" href="https://pxxyyz.com/posts/hexo-problem/">Hex
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/02/02/zjc421/">
-                        <span class="hidden-mobile">ZeroJudge c421:雲端列印服務</span>
+                      <a href="/2022/03/13/toipre2022/">
+                        <span class="hidden-mobile">TOI2022初選心得</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -521,6 +473,48 @@ target="_blank" rel="noopener" href="https://pxxyyz.com/posts/hexo-problem/">Hex
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        loader: {
+          load: ['ui/lazy']
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" ></script>
+
+  
 
 
 
