@@ -16,18 +16,20 @@
   <meta name="author" content="W_X_Dai">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
-<meta property="og:title" content="TOI2022初選心得">
-<meta property="og:url" content="http://w-x-dai.github.io/2022/03/13/test/index.html">
+    <meta name="description" content="算數練習#1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="這是一個算數練習">
+<meta property="og:url" content="http://w-x-dai.github.io/2022/05/14/test/index.html">
 <meta property="og:site_name" content="我的心路歷程">
+<meta property="og:description" content="算數練習#1">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2022-03-13T15:37:28.000Z">
-<meta property="article:modified_time" content="2022-05-14T15:45:22.795Z">
+<meta property="article:published_time" content="2022-05-14T14:46:03.000Z">
+<meta property="article:modified_time" content="2022-05-14T17:09:34.346Z">
 <meta property="article:author" content="W_X_Dai">
 <meta name="twitter:card" content="summary_large_image">
   
   
-  <title>TOI2022初選心得 - 我的心路歷程</title>
+  <title>這是一個算數練習 - 我的心路歷程</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -167,7 +169,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="TOI2022初選心得">
+            <span class="h2" id="subtitle" title="這是一個算數練習">
               
             </span>
 
@@ -182,8 +184,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2022-03-13 23:37" pubdate>
-        2022年3月13日 晚上
+      <time datetime="2022-05-14 22:46" pubdate>
+        2022年5月14日 晚上
       </time>
     </span>
   
@@ -193,7 +195,7 @@
   
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      0 字
+      72 字
     </span>
   
 
@@ -239,7 +241,7 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">TOI2022初選心得</h1>
+            <h1 style="display: none">這是一個算數練習</h1>
             
               <p class="note note-info">
                 
@@ -248,27 +250,50 @@
               </p>
             
             <div class="markdown-body">
-              <HTML>
-<?php echo "Please Enter yout Score"; ?>
-<form name="form1" method="post" action="out.php">
-<p>
-<input type= "text" name="x">
-</p>
-<p>
-<input type= "submit" name="formbutton1">
-</p>
-</form>
-<form name="f2" method="post" action="sure1.php">
-<input type="submit" name="b3" value="大江東去，浪淘盡、千古風流人物。
-故壘西邊，人道是、三國周郎赤壁。
-亂石穿空，驚濤拍岸，捲起千堆雪。
-江山如畫，一時多少豪傑。
-
-遙想公瑾當年，小喬初嫁了，雄姿英發。
-羽扇綸巾，談笑處、檣櫓灰飛煙滅。
-故國神遊，多情應笑我，早生華髮。
-人間如夢，一尊還酹江月。">
-</form>
+              <p>算數練習#1</p>
+<span id="more"></span>
+<HTML>
+<script>
+    function a(){
+        var q=[2,0,15,81,561],correct=[];
+        var scre=0;
+        for(var i=0;i<5;++i){
+            
+            var id="ans"+(i+1);
+            var x=document.getElementById(id).value;
+            if(x==q[i]){
+                scre+=20;
+                correct[i]=1;
+            }
+            else{
+                correct[i]=0;
+            }
+            
+        }
+        
+        var out="score : "+scre+"\n";
+        for(var i=0;i<5;++i){
+            out+=(i+1)+" : ";
+            if(correct[i])out+="correct";
+            else out+="incorrect";
+            out+="\n"
+        }
+        alert(out);
+        var _confirm=confirm("是否顯示詳解?");
+        
+        if(_confirm){
+            window.open("https://w-x-dai.github.io/2022/05/14/testout/");
+        }
+        
+        //document.write(out);
+    }
+</script>
+<p>1+1 <br><input type="text" input id="ans1" type=var><br><br> 4-4
+<br><input type="text" input id="ans2" type=var><br><br> 3x5
+<br><input type="text" input id="ans3" type=var><br><br> 405/5
+<br><input type="text" input id="ans4" type=var><br><br> 555+6
+<br><input type="text" input id="ans5" type=var><br><br>
+<button type="button" onclick="a()">驗證</button></p>
 </HTML>
 
             </div>
@@ -290,18 +315,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/04/12/learnandneed/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">學習與需要</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2022/03/13/toipre2022/">
-                        <span class="hidden-mobile">TOI2022初選心得</span>
+                      <a href="/2022/04/12/learnandneed/">
+                        <span class="hidden-mobile">學習與需要</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
