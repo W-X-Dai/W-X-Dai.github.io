@@ -4,6 +4,56 @@
   
   
   <entry>
+    <title>數學複習第一單元:數與式 題解</title>
+    <link href="/2022/05/29/mathch1_ans/"/>
+    <url>/2022/05/29/mathch1_ans/</url>
+    
+    <content type="html"><![CDATA[<p>大滿貫複習講義第一單元錯題列表 題解</p><span id="more"></span><h2 id="第一題">第一題</h2><blockquote><p>數線上有原點<span class="math inline">\(O\)</span>以及<spanclass="math inline">\(A(-2),B(10),C(x)\)</span>三點，其中，<spanclass="math inline">\(\overline{BC}&lt;\overline{AC}&lt;\overline{OB}\)</span></p><p>設<span class="math inline">\(x\in\;(a,b)\)</span>，則<spanclass="math inline">\(a+b=\)</span></p></blockquote><p>對於題目敘述，給出以下三個關係式，並且取他們解的聯集，即可找出<spanclass="math inline">\(x\)</span>的範圍</p><ol type="1"><li><p><spanclass="math inline">\(\overline{BC}&lt;\overline{AC}\)</span>，<spanclass="math inline">\(x&gt;4\)</span></p></li><li><p><spanclass="math inline">\(\overline{BC}&lt;\overline{OB}\)</span>，<spanclass="math inline">\(0&lt;x&lt;20\)</span></p></li><li><p><spanclass="math inline">\(\overline{AC}&lt;\overline{OB}\)</span>，<spanclass="math inline">\(-12&lt;x&lt;8\)</span></p></li></ol><p>最終得到:<span class="math inline">\(4&lt;x&lt;8\)</span>，因此<spanclass="math inline">\(a=4,b=8,a+b=12\)</span></p><h2 id="第二題">第二題</h2><blockquote><p>有一種飛彈飛行速度為<spanclass="math inline">\(3\;km/sec\)</span>，從<spanclass="math inline">\(A\)</span>往<spanclass="math inline">\(100km\)</span>以外的<spanclass="math inline">\(P\)</span>點等速直線發射這種飛彈，飛彈飛行了<spanclass="math inline">\(t\)</span>秒後落在<spanclass="math inline">\(B\)</span>點，且<spanclass="math inline">\(\overline{BP}=d,d\in\;[2,5]\)</span></p><p>設t的最大值為<span class="math inline">\(a\)</span>，最小值為<spanclass="math inline">\(b\)</span>，求<spanclass="math inline">\(a+3b=\)</span></p></blockquote><p>本題要特別注意的是:<spanclass="math inline">\(B\)</span>點可能在<spanclass="math inline">\(P\)</span>點右方或者是左方，這兩個條件都要顧慮到，不然很可能會少掉一組解。</p><h2 id="第三題">第三題</h2><p>本題為是非題，請輸入錯誤的敘述數量</p><p>敘述一、若<span class="math inline">\(x\in\mathbb{R}\)</span>，則<spanclass="math inline">\(\sqrt{x^2}=x\)</span><br> 敘述二、<spanclass="math inline">\(\sqrt{5-2\sqrt{6}}=\sqrt{(\sqrt{2}-\sqrt{3})^2}=\sqrt{2}-\sqrt{3}\)</span><br>敘述三、若<span class="math inline">\(m,n\in\mathbb{N},m+2n=10\)</span>，則<spanclass="math inline">\(mn\)</span>之最大值為<spanclass="math inline">\(\cfrac{25}{2}\)</span></p><p>這三個敘述中，有幾個是錯的?</p><h2 id="第四題">第四題</h2><p>本題為多選題，請由小到大輸入答案。若答案為(1)、(3)、(4)則請輸入134，143、1,3,4都是不合法的</p><p>已知<spanclass="math inline">\(\;p=\sqrt{c+2\sqrt{d}}=\sqrt{a}+\sqrt{b}\)</span>，<spanclass="math inline">\(a,b,c,d\in \mathbb{R}^+\)</span>，<spanclass="math inline">\(b\ge a\)</span>。 以下為選項:</p><ol type="1"><li><p>若<span class="math inline">\(c=7,d=6\)</span>，則<spanclass="math inline">\(a=2,b=3\)</span></p></li><li><p><spanclass="math inline">\(\sqrt{c-2\sqrt{d}}=\sqrt{a}-\sqrt{b}\)</span></p></li><li><p><spanclass="math inline">\(\sqrt{c+2\sqrt{d}}\)</span>之倒數為<spanclass="math inline">\(\sqrt{c-2\sqrt{d}}\)</span></p></li><li><p>若<spanclass="math inline">\(c=\cfrac{7}{2},d=3\)</span>，則<spanclass="math inline">\(a^2+b^2=\cfrac{25}{4}\)</span></p></li><li><p><span class="math inline">\(c^2\ge 4d\)</span></p></li></ol><h2 id="第五題">第五題</h2><p>若<span class="math inline">\(x\in [-100,100]\)</span>，設不等式<spanclass="math inline">\(|x-3|\le |x+2|\)</span>中，<spanclass="math inline">\(x\)</span>之最大值為<spanclass="math inline">\(a\)</span>，<spanclass="math inline">\(x\)</span>之最小值為<spanclass="math inline">\(b\)</span></p><p>求<span class="math inline">\(a+2b=\)</span></p><h2 id="第六題">第六題</h2><p>本題為多選題，請由小到大輸入答案。若答案為(1)、(3)、(4)則請輸入134，143、1,3,4都是不合法的</p><p>請在下列有關循環小數的敘述中，選出正確的答案</p><ol type="1"><li><p><spanclass="math inline">\(0.\overline{23}=\cfrac{23}{99}\)</span></p></li><li><p>若<spanclass="math inline">\(p=123.\overline{23}-0.\overline{32}\)</span>，則<spanclass="math inline">\(p\in \mathbb{Q}\)</span></p></li><li><p><span class="math inline">\(\cfrac{2.3\times10^9}{99}\)</span>化為小數後，小數點後第一位數字為<spanclass="math inline">\(2\)</span></p></li><li><p><span class="math inline">\(\cfrac{2.3\times10^8}{99}\)</span>化為小數後，小數點後第一位數字為<spanclass="math inline">\(2\)</span></p></li><li><p>若<span class="math inline">\(p=\cfrac{2.3\times10^9}{99}-123.\overline{23}\)</span>，則<span class="math inline">\(p\in\mathbb{R}\)</span></p></li></ol><h2 id="第七題">第七題</h2><p>本題為多選題，請由小到大輸入答案。若答案為(1)、(3)、(4)則請輸入134，143、1,3,4都是不合法的</p><p>已知<spanclass="math inline">\(a&gt;1\)</span>，數線上相異三點座標分別為<spanclass="math inline">\(A(a),B(1+\cfrac{2}{a}),P(2)\)</span>，請選出正確的選項</p><ol type="1"><li><p>若<span class="math inline">\(B\)</span>點座標為<spanclass="math inline">\(\cfrac{3}{2}\)</span>，<spanclass="math inline">\(A\)</span>點座標為<spanclass="math inline">\(1\)</span></p></li><li><p>若<span class="math inline">\(A\)</span>在<spanclass="math inline">\(P\)</span>點右方，<spanclass="math inline">\(B\)</span>必定在<spanclass="math inline">\(P\)</span>點左方</p></li><li><p>若<span class="math inline">\(A\)</span>在<spanclass="math inline">\(P\)</span>點左方，<spanclass="math inline">\(B\)</span>必定在<spanclass="math inline">\(P\)</span>點左方</p></li><li><p><spanclass="math inline">\(\overline{BP}=|1+\cfrac{a}{2}|\)</span></p></li><li><p><spanclass="math inline">\(\overline{AP}&gt;\overline{BP}\)</span></p></li></ol><h2 id="第八題">第八題</h2><p>設<span class="math inline">\(a,b,c\)</span>為介於<spanclass="math inline">\(1\sim 9\)</span>之自然數，若<spanclass="math inline">\(\cfrac{699}{900}&lt;0.a\overline{bc}&lt;\cfrac{700}{900}\)</span></p><p>求<span class="math inline">\(a+b+c=\)</span></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>math</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>數學複習第一單元:數與式</title>
+    <link href="/2022/05/29/mathch1/"/>
+    <url>/2022/05/29/mathch1/</url>
+    
+    <content type="html"><![CDATA[<p>大滿貫複習講義第一單元:數與式</p><p>錯題列表</p><span id="more"></span><HTML><script>    function a(){        var q=[12,130,3,45,101,1235,235,20],correct=[];        var scre=0;        for(var i=0;i<8;++i){                        var id="ans"+(i+1);            var x=document.getElementById(id).value;                        if(x==q[i]){                ++scre;                correct[i]=1;            }            else{                correct[i]=0;            }                    }                var out="correct : "+scre+"/8\n";        for(var i=0;i<8;++i){            out+=(i+1)+" : ";            if(correct[i])out+="correct";            else out+="incorrect";            out+="\n"        }        alert(out);        var _confirm=confirm("是否顯示詳解?");                if(_confirm){            window.open("https://w-x-dai.github.io/2022/05/29/mathch1_ans/");        }                //document.write(out);    }</script><h2 id="第一題">第一題</h2><p>數線上有原點<span class="math inline">\(O\)</span>以及<spanclass="math inline">\(A(-2),B(10),C(x)\)</span>三點，其中，<spanclass="math inline">\(\overline{BC}&lt;\overline{AC}&lt;\overline{OB}\)</span></p><p>設<span class="math inline">\(x\in\;(a,b)\)</span>，則<spanclass="math inline">\(a+b=\)</span><input type="text" input id="ans1" type=var><br><br></p><h2 id="第二題">第二題</h2><p>有一種飛彈飛行速度為<spanclass="math inline">\(3\;km/sec\)</span>，從<spanclass="math inline">\(A\)</span>往<spanclass="math inline">\(100km\)</span>以外的<spanclass="math inline">\(P\)</span>點等速直線發射這種飛彈，飛彈飛行了<spanclass="math inline">\(t\)</span>秒後落在<spanclass="math inline">\(B\)</span>點，且<spanclass="math inline">\(\overline{BP}=d,d\in\;[2,5]\)</span></p><p>設t的最大值為<span class="math inline">\(a\)</span>，最小值為<spanclass="math inline">\(b\)</span>，求<spanclass="math inline">\(a+3b=\)</span><input type="text" input id="ans2" type=var><br><br></p><h2 id="第三題">第三題</h2><p>本題為是非題，請輸入錯誤的敘述數量</p><p>敘述一、若<span class="math inline">\(x\in\mathbb{R}\)</span>，則<spanclass="math inline">\(\sqrt{x^2}=x\)</span><br> 敘述二、<spanclass="math inline">\(\sqrt{5-2\sqrt{6}}=\sqrt{(\sqrt{2}-\sqrt{3})^2}=\sqrt{2}-\sqrt{3}\)</span><br>敘述三、若<span class="math inline">\(m,n\in\mathbb{N},m+2n=10\)</span>，則<spanclass="math inline">\(mn\)</span>之最大值為<spanclass="math inline">\(\cfrac{25}{2}\)</span></p><p>這三個敘述中，有幾個是錯的?<input type="text" input id="ans3" type=var><br><br></p><h2 id="第四題">第四題</h2><p>本題為多選題，請由小到大輸入答案。若答案為(1)、(3)、(4)則請輸入134，143、1,3,4都是不合法的</p><p>已知<spanclass="math inline">\(\;p=\sqrt{c+2\sqrt{d}}=\sqrt{a}+\sqrt{b}\)</span>，<spanclass="math inline">\(a,b,c,d\in \mathbb{R}^+\)</span>，<spanclass="math inline">\(b\ge a\)</span>。 以下為選項:</p><ol type="1"><li><p>若<span class="math inline">\(c=7,d=6\)</span>，則<spanclass="math inline">\(a=2,b=3\)</span></p></li><li><p><spanclass="math inline">\(\sqrt{c-2\sqrt{d}}=\sqrt{a}-\sqrt{b}\)</span></p></li><li><p><spanclass="math inline">\(\sqrt{c+2\sqrt{d}}\)</span>之倒數為<spanclass="math inline">\(\sqrt{c-2\sqrt{d}}\)</span></p></li><li><p>若<spanclass="math inline">\(c=\cfrac{7}{2},d=3\)</span>，則<spanclass="math inline">\(a^2+b^2=\cfrac{25}{4}\)</span></p></li><li><p><span class="math inline">\(c^2\ge 4d\)</span></p></li></ol><p>答案: <input type="text" input id="ans4" type=var><br><br></p><h2 id="第五題">第五題</h2><p>若<span class="math inline">\(x\in [-100,100]\)</span>，設不等式<spanclass="math inline">\(|x-3|\le |x+2|\)</span>中，<spanclass="math inline">\(x\)</span>之最大值為<spanclass="math inline">\(a\)</span>，<spanclass="math inline">\(x\)</span>之最小值為<spanclass="math inline">\(b\)</span></p><p>求<span class="math inline">\(a+2b=\)</span><input type="text" input id="ans5" type=var><br><br></p><h2 id="第六題">第六題</h2><p>本題為多選題，請由小到大輸入答案。若答案為(1)、(3)、(4)則請輸入134，143、1,3,4都是不合法的</p><p>請在下列有關循環小數的敘述中，選出正確的答案</p><ol type="1"><li><p><spanclass="math inline">\(0.\overline{23}=\cfrac{23}{99}\)</span></p></li><li><p>若<spanclass="math inline">\(p=123.\overline{23}-0.\overline{32}\)</span>，則<spanclass="math inline">\(p\in \mathbb{Q}\)</span></p></li><li><p><span class="math inline">\(\cfrac{2.3\times10^9}{99}\)</span>化為小數後，小數點後第一位數字為<spanclass="math inline">\(2\)</span></p></li><li><p><span class="math inline">\(\cfrac{2.3\times10^8}{99}\)</span>化為小數後，小數點後第一位數字為<spanclass="math inline">\(2\)</span></p></li><li><p>若<span class="math inline">\(p=\cfrac{2.3\times10^9}{99}-123.\overline{23}\)</span>，則<span class="math inline">\(p\in\mathbb{R}\)</span></p></li></ol><p>答案: <input type="text" input id="ans6" type=var><br><br></p><h2 id="第七題">第七題</h2><p>本題為多選題，請由小到大輸入答案。若答案為(1)、(3)、(4)則請輸入134，143、1,3,4都是不合法的</p><p>已知<spanclass="math inline">\(a&gt;1\)</span>，數線上相異三點座標分別為<spanclass="math inline">\(A(a),B(1+\cfrac{2}{a}),P(2)\)</span>，請選出正確的選項</p><ol type="1"><li><p>若<span class="math inline">\(B\)</span>點座標為<spanclass="math inline">\(\cfrac{3}{2}\)</span>，<spanclass="math inline">\(A\)</span>點座標為<spanclass="math inline">\(1\)</span></p></li><li><p>若<span class="math inline">\(A\)</span>在<spanclass="math inline">\(P\)</span>點右方，<spanclass="math inline">\(B\)</span>必定在<spanclass="math inline">\(P\)</span>點左方</p></li><li><p>若<span class="math inline">\(A\)</span>在<spanclass="math inline">\(P\)</span>點左方，<spanclass="math inline">\(B\)</span>必定在<spanclass="math inline">\(P\)</span>點左方</p></li><li><p><spanclass="math inline">\(\overline{BP}=|1+\cfrac{a}{2}|\)</span></p></li><li><p><spanclass="math inline">\(\overline{AP}&gt;\overline{BP}\)</span></p></li></ol><p>答案: <input type="text" input id="ans7" type=var><br><br></p><h2 id="第八題">第八題</h2><p>設<span class="math inline">\(a,b,c\)</span>為介於<spanclass="math inline">\(1\sim 9\)</span>之自然數，若<spanclass="math inline">\(\cfrac{699}{900}&lt;0.a\overline{bc}&lt;\cfrac{700}{900}\)</span></p><p>求<span class="math inline">\(a+b+c=\)</span><input type="text" input id="ans8" type=var><br><br></p><button type="button" onclick="a()">確認送出</button></HTML>]]></content>
+    
+    
+    <categories>
+      
+      <category>math</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>這是一個算數練習</title>
     <link href="/2022/05/14/test/"/>
     <url>/2022/05/14/test/</url>
@@ -72,9 +122,9 @@
     
     <tags>
       
-      <tag>筆記</tag>
-      
       <tag>math</tag>
+      
+      <tag>筆記</tag>
       
       <tag>數據分析</tag>
       
